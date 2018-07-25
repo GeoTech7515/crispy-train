@@ -1,113 +1,98 @@
 body {
-    background-image: url('../img/Wallpaper- Samus.png');
-    background-size: cover;
-    min-height: 100%;
-    font-family: 'Audiowide';
-    font-family: 'Press+Start+2P' ;
-    margin: 0 ;
-    padding: 0 ;
+background-image: url('../img/Wallpaper- Samus.png');
+background-size: cover;
+min-height: 100%;
+font-family: 'Audiowide';
+font-family: 'Press+Start+2P' ;
+margin: 0 ;
+padding: 0 ;
 }
-
 /* menu bar */
 #navbar{
-    background-color: grey;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+background-color: grey;
+font-size: 20px;
+font-weight: bold;
+color: white;
 }
-
 #nav {
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 0;
+list-style-type: none;
+padding-left: 0;
+margin-top: 0;
 }
-
 #nav li {
-    display: inline-block;
-    line-height: 3;
+display: inline-block;
+line-height: 3;
 }
-
 #nav li a {
-    color: white;
-    text-decoration: none;
-    padding: 0 20px;
-    display: inline-block;
-    transition: all .3s;
-    font-family: 'Press Start 2P', cursive;
+color: white;
+text-decoration: none;
+padding: 0 20px;
+display: inline-block;
+transition: all .3s;
+font-family: 'Press Start 2P', cursive;
 }
-
 #nav li:hover {
-    background-color: black;
-    transition-duration: all .3s;
+background-color: black;
+transition-duration: all .3s;
 }
-
 #nav li a:hover {
-    color: red;
+color: red;
 }
-
 /* Title on the webpage*/
 h1 {
-    font-family: 'Audiowide' ,cursive;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 500%;
+font-family: 'Audiowide' ,cursive;
+text-align: center;
+color: whitesmoke;
+font-size: 500%;
 }
-
 h2 {
-    color: whitesmoke;
-    text-align: center;
-    font-size: 300%;
-    font-family: 'Audiowide' ,cursive;
+color: whitesmoke;
+text-align: center;
+font-size: 300%;
+font-family: 'Audiowide' ,cursive;
 }
-
 p {
-    color: whitesmoke;
-    text-align: center;
-    font-size: 400%;
-    font-family: 'Press Start 2P' ;
+color: whitesmoke;
+text-align: center;
+font-size: 400%;
+font-family: 'Press Start 2P' ;
 }
-
 .storyfont {
-    font-size: 5px;
+font-size: 5px;
 }
-
 .footer {
-    font-size: 5px;
-    position: relative;
-    bottom: 0;
-    left: 5%;
+font-size: 5px;
+position: relative;
+bottom: 0;
+left: 5%;
 }
 /* WALLPAPER */
 .wallpaper-story{
-    background-image: url('../img/Wallpaper 2 - Samus.png');
-    background-size: cover;
+background-image: url('../img/Wallpaper 2 - Samus.png');
+background-size: cover;
 }
-
 .wallpaper-enemy {
-    background-image: url('../img/wallpaper 6.png');
-    background-size: cover;
+background-image: url('../img/wallpaper 6.png');
+background-size: cover;
 }
-
 .wallpaper-media {
-    background-image: url('../img/ted.jpg');
-    background-size: cover;
+background-image: url('../img/ted.jpg');
+background-size: cover;
 }
 /* Side-by-Side */
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
-
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 3px;
-    border: 3px solid red;
-    font-size: 5px;
+float: left;
+width: 33.33%;
+padding: 3px;
+border: 3px solid red;
+font-size: 5px;
 }
-
 /* Clearfix (clear floats) */
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+content: "";
+clear: both;
+display: table;
 }
